@@ -1,3 +1,8 @@
 var playlist = {Radiohead: "Karma Police"};
 
-updatePlaylist['Slayer'] = "Raining Blood";
+function updatePlaylist(playlist, artistName, songTitle) {
+  playlist[artistName] = songTitle;
+  return playlist;
+}
+
+updatePlaylist(playlist, 'Slayer', 'Raining Blood');
