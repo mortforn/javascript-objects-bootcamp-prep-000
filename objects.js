@@ -10,3 +10,5 @@ updatePlaylist(playlist, 'Slayer', 'Raining Blood');
 function removeFromPlaylist (playlist, artistName) {
   delete playlist.artistName;
 }
+
+removeFromPlaylist(playlist, 'Slayer');
